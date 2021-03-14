@@ -57,6 +57,7 @@
 template <int BLOCK_SIZE> __global__ void MatrixMulCUDA(float *C, float *A,
     float *B, int wA,
     int wB) {
+
   // Block index
   int bx = blockIdx.x;
   int by = blockIdx.y;
