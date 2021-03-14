@@ -6,6 +6,7 @@
             "command": "nvcc",
             "args": [
                 "-g",
+                "-G",
                 "${file}",
                 "-I${workspaceFolder}/Common",
                 "-o",
