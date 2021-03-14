@@ -1,7 +1,6 @@
 # CUDA Samples for VSCode
 
-### __ACody: added configs for build/debugging in VSCode using nvcc/cuda-gdb__
-
+## ACody: [added configs for build/debug in VSCode using nvcc/cuda-gdb](https://blog.aaroncody.com/jekyll/update/2021/03/13/cuda-vscode.html)
 
 Samples for CUDA Developers which demonstrates features in CUDA Toolkit. This version supports [CUDA Toolkit 11.0](https://developer.nvidia.com/cuda-downloads).
 
