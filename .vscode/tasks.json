@@ -1,0 +1,20 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "CUDA C/C++: build active file",
+            "command": "nvcc",
+            "args": [
+                "-g",
+                "${file}",
+                "-I${workspaceFolder}/Common",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            }
+        }
+    ],
+    "version": "2.0.0"
+}
