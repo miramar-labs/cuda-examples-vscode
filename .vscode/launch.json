@@ -5,6 +5,7 @@
     "version": "0.2.0",
     "configurations": [
 
+
         {
             "name": "CUDA C/C++: build and debug active file",
             "type": "cppdbg",
@@ -22,7 +23,7 @@
                 "ignoreFailures": true
               }
             ],
-            "preLaunchTask": "CUDA C/C++: build active file",
+            "preLaunchTask": "CUDA C/C++: BUILD active file",
             "miDebuggerPath": "/usr/local/cuda/bin/cuda-gdb"
           }
     ]
