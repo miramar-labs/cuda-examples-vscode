@@ -35,6 +35,15 @@
                 "CUDA C/C++: BUILD active file"
             ],
             "problemMatcher": ["$gcc"]
+        },
+        {
+            "label": "CUDA C/C++: PROFILE active file",
+            "type": "shell",
+            "command": "/usr/local/cuda/bin/nvprof ${fileDirname}/${fileBasenameNoExtension}",
+            "dependsOn": [
+                "CUDA C/C++: BUILD active file"
+            ],
+            "problemMatcher": ["$gcc"]
         }
     ]
 }
